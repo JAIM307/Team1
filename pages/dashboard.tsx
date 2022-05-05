@@ -9,10 +9,10 @@ import thumb5 from '../public/media/chapt5.png'
 import thumb6 from '../public/media/chapt6.png'
 import thumb7 from '../public/media/chapt7.png'
 import thumb8 from '../public/media/chpt8.png'
+import { getDisplayName } from 'next/dist/shared/lib/utils'
 function Dashboard(){
 return(
     <>
-    
     <div className="video-lessons">Welcome to your story log</div>
     
     <div className = "Header"><h4>Please choose a Chapter</h4></div>
@@ -127,8 +127,7 @@ return(
   width={300}
   />
   </div>
-  </a>
-          
+  </a>  
     </section>   
     </div>
     </>
