@@ -3,6 +3,7 @@ import Image from 'next/image'
 import uhImage from '../public/media/uh.png'
 
 const footer = () => (
+
 <footer className="footer">
     <div className='ml-3 mr-3 mt-4' >
           <Image
@@ -24,7 +25,7 @@ const footer = () => (
 
         <a className="ml-3 mr-3 mt-4 font-bold underline text-lg" href="#top">Go to top of page</a>
 </footer>
-    
+
       );
 
       export default footer;
