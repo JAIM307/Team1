@@ -17,7 +17,7 @@ return(
     
     <div className = "Header"><h4>Please choose a Chapter</h4></div>
     
-    <div className="vid-layout ">
+    <div className="vid-layout">
 
     <section className="chpts-1-4">
       
