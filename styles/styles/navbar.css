@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+.nav-background{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: #fb2c08c7;
+    color: black;
+    font-weight: bold;
+    font-family: "Neucha";
+    box-shadow: inset 0 -0px 6px 3px rgba(0, 0, 0, 0.503)
+}
+
+.nav-sections{
+    display: flex;
+}
+
+.nav-spacing{
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+/*Home-page CSS*/
+
+.homepage-background{
+  /* background-color: #71eb96ca;*/
+  background-image:url('/media/back-G.png');
+  background-size: cover;
+  box-shadow: inset 0 -0px 6px 3px rgba(0, 0, 0, 0.503)
+}
+
+.homepage-intro-text{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 1px;
+    font-weight: bold;
+    font-family: "Neucha", cursive;
+}
+
+.title-layout{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Neucha";
+    font-style: normal;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.text-layout{
+    text-align: center;
+    padding-bottom:40px;
+}
+
+.names-text-layout{
+    text-align: center;
+    padding-bottom:15px;
+    
+}
+
+
+
+.navbar-buttons{
+    display:inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin: auto;
+    border-radius: 18px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #06e2c5e1;
+    box-shadow: 2px 5px rgb(140, 65, 27);
+}
+
+.navbar-buttons:hover{
+    color: #00000075;
+}
+
+.navbar-buttons:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button-layout{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 18px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-size: 17px;
+    box-shadow: 2px 5px rgb(140, 65, 27);
+}
+
+.buttons:hover{
+    color: #00000075;
+}
+
+.buttons:active{
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*Footer CSS*/
+.footer{
+    display: block;
+    text-align: left;
+    background-color:#fb2c08c7;
+    justify-content:space-evenly;
+    align-items: center;
+    display: flex;
+    font-style: bolder;
+    font-family: "Neucha", cursive;
+}
+
+.footer-text{   
+    text-decoration: underline;
+    padding-left: 50px;
+    text-align: center;   
+}
+
+.uh-image-center{
+    align-items: center;
+}
+
+/*Image CSS*/
+
+.image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 50%;
+}
+
+.uh-image-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    width: 20%;
+}
+
+/*Image container*/
+.title-image-container{
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: center;
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.footer-image-container{
+    width: 120px;
+    min-height: 120px;
+    max-height: auto;
+    
+}
+
+.page-container{
+    position: relative;
+    min-height: 90vh;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: "Neucha";
+    font-size: 20px;
+}
+
+.about-section-center{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-style{
+    font-family: "Neucha";
+    font-weight: bold;
+    font-size: 20px;
+}
