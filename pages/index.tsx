@@ -1,86 +1,101 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+import snake from '../public/media/image.png'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <section className="homepage-background pb-10">
+        
+        <div className='title-image-container pt-2'>
+          <Image
+            src={snake}
+            alt="title Image"
+            layout={'intrinsic'}
+            height={350}
+            width={550}
+          />
         </div>
-      </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
+          <h2 className="homepage-intro-text title-layout"> Welcome!</h2>
+      
+          <div className="title-layout"> Learn to Program with Python! </div>
+          
+          
+            <div className="homepage-intro-text">Start learning Python through watching videos and practicing code all in the browser!</div>
+            <div className="homepage-intro-text mt-3">Just simply register your account, login and start watching videos. </div>
+            <div className="homepage-intro-text mt-3">These are not regular tutorials, they teach you in a easy to understand and fun story-like way.</div>
+          
+  </section>
+
+  <section className="bg-[#fb2c08c7] pb-10">
+      <div className="title-layout">Programming Resources</div>
+      <div className="text-layout text-style">Programming Tools to get you started</div>
+      
+      <div className="button-layout pb-6">
+          <a className='mb-4' href="https://www.python.org/"><button className="buttons bg-[#59CD90]">Python</button></a>
+      </div>
+
+      <div className="button-layout">
+          <a className='ml-10' href="https://www.sublimetext.com/"><button className="buttons bg-[#E62FFA]">Sublime text</button></a>
+          <a className='ml-10' href="https://code.visualstudio.com/"><button className="buttons bg-[#72D8FD]">VS Code</button></a>
+          <a className='ml-10' href="https://www.jetbrains.com/pycharm/"><button className="buttons bg-[#F6BB80]">Pycharm</button></a>
+          <a className='ml-10' href="https://developer.apple.com/xcode/"><button className="buttons bg-[#FAFAAC]">XCode- For Mac</button></a>
+      </div>
+    </section>
+
+    <section className="homepage-background pb-10">
+        <div className="title-layout" id="About">About</div>
+
+        <div className='text-center pb-8 text-style'>UH students who worked on the website:</div>
+
+      <div className='about-section-center'>
+        
+          <div className='about-section'> 
+
+            <a>Ashley Odstrcil</a>
+            <a>Loveleen Thomas</a>
+            <a>Hussein Alfartosy</a>
+            <a>Tarun Appannagari</a>
+
+          </div>
+
+          <div className='about-section'> 
+
+            <a>Juanita Correa</a>
+            <a>Sonny Ha</a>
+            <a>Lena Luc</a>
+            <a>Annabella Tao</a>
+
+          </div>
+
+          <div className='about-section'> 
+
+            <a>Hima Vadakekara</a>
+            <a>Rozhin Zayen</a>
+            <a>Santos Garcia</a>
+            <a>Cesar Campos</a>
+
+          </div>
+
+          <div className='about-section'> 
+
+            <a>Brianna McDermot</a>
+          </div>
+
+        </div>
+
+    </section>
+
+
+
     </div>
   )
-}
+};
 
 export default Home
+
+
